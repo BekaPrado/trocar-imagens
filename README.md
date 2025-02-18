@@ -1,8 +1,6 @@
 # Trocar cor do Site
 
-![alt text](image-1.png)
----
-
+![alt text](image-2.png)
 ## Sobre
 Projeto para trocar a imagem da página utilizando JS. 
 ---
@@ -17,6 +15,3 @@ Projeto para trocar a imagem da página utilizando JS.
 ## Autor
 
 - [Rebeka Marcelino do Prado](https://www.linkedin.com/in/rebekamarcelino)
-
-"# TrocarImagens" 
-"# trocar-imagens" 
