@@ -19,3 +19,4 @@ Projeto para trocar a imagem da página utilizando JS.
 - [Rebeka Marcelino do Prado](https://www.linkedin.com/in/rebekamarcelino)
 
 "# TrocarImagens" 
+"# trocar-imagens" 
