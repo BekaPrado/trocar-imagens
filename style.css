@@ -1,12 +1,12 @@
-:root{
-    --fundo-imagem: url("imagens/salmo.jpg");
+:root {
+    --fundo-imagem: url("imagens/comoperder.jpg"); 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     height: 100vh;
     display: flex;
@@ -14,6 +14,7 @@ body{
     align-items: center;
     background-image: var(--fundo-imagem);
     transition: background-image 2s;
+    background-size: cover;
 }
 
 input{

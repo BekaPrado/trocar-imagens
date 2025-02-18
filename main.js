@@ -1,16 +1,19 @@
-"use strict"
+"use strict";
 
+const botaoTrocarImagem = document.getElementById('trocar-imagem');
 
+const imagens = [
+    'url("imagens/paratodososgarotos.jpg")',
+    'url("imagens/comoperder.jpg")',
+    'url("imagens/gossipgirl.jpg")',
+    'url("imagens/gilmore.jpg")'
+];
 
-const botaoTrocarImagem = document.getElementById('trocar-imagem')
- 
-function trocarImagem () {
- 
- const imagem = 'url("imagens/isaias.jpg")';
-    document.documentElement.style.setProperty('--fundo-imagem', imagem)
+let indiceAtual = 0;
 
-const imagemdois = 'url("imagens/mateus.jpg")';
-    document.documentElement.style.setProperty('--fundo-imagem', imagem)
+function trocarImagem() {
+    indiceAtual = (indiceAtual + 1) % imagens.length;
+    document.documentElement.style.setProperty('--fundo-imagem', imagens[indiceAtual]);
 }
 
-botaoTrocarImagem.addEventListener('click', trocarImagem)
+botaoTrocarImagem.addEventListener('click', trocarImagem);
